@@ -9,7 +9,7 @@ import org.springframework.web.bind.annotation.PathVariable;
 @Mapper
 public interface UserMapper {
 
-    User selectById(int id);
+    User selectById(@Param("id") int id);
 
     User selectByName(String username);
 

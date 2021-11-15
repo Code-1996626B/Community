@@ -12,9 +12,9 @@
     </sql>
 
     <select id="selectById" resultType="User">
-      select <include refid="selectFields"></include>
-      from user
-      where id = #{id}
+        select <include refid="selectFields"></include>
+        from user
+        where id = #{id}
     </select>
 
     <select id="selectByName" resultType="User">
