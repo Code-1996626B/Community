@@ -5,6 +5,7 @@ import org.apache.ibatis.annotations.*;
 import org.springframework.web.bind.annotation.PathVariable;
 
 @Mapper
+@Deprecated
 public interface LoginTicketMapper {
 
     @Insert({
